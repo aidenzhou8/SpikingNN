@@ -1,4 +1,4 @@
-# A Spiking Neural Network
+# Spiking Neural Network
 
 I made a basic spiking neural network (SNN) to simulate bio-plausible cognitive behavior on conventional hardware. This project illustrates how SNNs, which utilize discrete "spikes" to store and analyze information, can achieve energy-efficient calculations while delivering strong results on the MNIST and CIFAR-100 datasets. 
 
