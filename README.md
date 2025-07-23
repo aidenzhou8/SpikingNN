@@ -83,10 +83,6 @@ python visualizations/synapse_viz.py
 python visualizations/encoding_viz.py
 ```
 
-## License
-
-[Add your preferred license here]
-
 ## Credits
 
 This repo is mainly inspired by:
