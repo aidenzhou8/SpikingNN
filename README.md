@@ -4,7 +4,7 @@ I made a basic spiking neural network (SNN) to simulate bio-plausible cognitive 
 
 ## Overview
 
-Spiking neural networks (SNNs) represent a potential major shift in the ML industry. They have proven an efficiency advantage over traditional artificial neural networks by copying the discrete nature of biological neurons. Unlike naive neurons that continuously take in values, the leaky integrate-and-fire (LIF) neuron model only spikes when certain conditions are met. This is part of why natural cognition is not nearly as energy-hungry as AI, but can achieve superior results in various aspects. If advances in biology-inspired hardware can catch up (for instance, IBM's TrueNorth chip), SNNs are likely to receive their long overdue share of public attention. 
+Spiking neural networks (SNNs) represent a potential major shift in the ML industry. They have proven an efficiency advantage over traditional artificial neural networks by copying the discrete nature of biological neurons. Unlike naive neurons that continuously take in values, the leaky integrate-and-fire (LIF) neuron model only spikes when certain conditions are met. This is part of why natural cognition is not nearly as energy-hungry as AI, but can achieve superior results in various aspects. If advances in biology-inspired hardware can catch up (for instance, IBM's TrueNorth chip), the future is bright for SNNs.
 
 This repo includes code for:
 - **Basic neural units**: LIF neurons and synapses
