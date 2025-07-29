@@ -11,7 +11,7 @@ This repo includes code for:
 - **Population coding**: Groups of neurons for robust and parallelizable representation
 - **Learning mechanisms**: Via STDP (spike-timing-dependent plasticity)
 - **Data encoding**: Poisson encoding for visual stimuli
-- **Visualizations**: For single and groups of LIF neurons, synapses, and Poisson encoding. 
+- **Visualizations**: For single and groups of LIF neurons, synapses, Poisson encoding, and STDP learning.
 
 ## Project Structure
 
@@ -26,6 +26,7 @@ SpikingNN/
 │   ├── LIF_viz.py          # LIF neuron visualization
 │   ├── synapse_viz.py      # Synaptic response visualization
 │   ├── encoding_viz.py     # Poisson encoding visualization
+│   ├── STDP_viz.py         # STDP learning visualization
 │   └── __init__.py
 ├── data/                    
 │   └── brain_icon.png     
@@ -54,6 +55,7 @@ SpikingNN/
 ### 📈 Visualization Tools
 - **LIF Dynamics**: Decay curves, spikes, and refractory periods
 - **Encoding Visualization**: Original pictures vs. spike-based reconstructions
+- **Hebbian Learning**: Adaptive changes in synaptic weights via STDP
 
 ## Usage Guide
 
@@ -68,20 +70,17 @@ pip install numpy matplotlib scipy pillow
 
 ## Tips and Tricks
 
-### Run LIF Neuron Visualization
-```bash
-python visualizations/LIF_viz.py
-```
-
-### Run Synapse Visualization
-```bash
-python visualizations/synapse_viz.py
-```
-
 ### Run Data Encoding Visualization
 ```bash
 python visualizations/encoding_viz.py
 ```
+<img width="756" height="250" alt="encoding_viz" src="https://github.com/user-attachments/assets/c2e27f61-0156-4b99-a61b-a0f29044c916" />
+
+### Run STDP Learning Visualization
+```bash
+python visualizations/stdp_viz.py
+```
+<img width="600" height="350" alt="STDP_viz" src="https://github.com/user-attachments/assets/8bdb0c12-816b-44ec-bdda-de182b3ea1ae" />
 
 ## Credits
 
